@@ -51,7 +51,7 @@ function HomePage() {
                   <div className="card buy-now-card">
                       <img src={img}alt="Headphones" className="card-img-top" />
                       <div className="card-body">
-                          <h5 className="card-title">Synced</h5>
+                          <h5 className="card-titles">Red Dead Redemption 2</h5>
                           <p className="card-text">Action, Adventure</p>
                           
                       </div>
@@ -63,7 +63,7 @@ function HomePage() {
                   <div className="card buy-now-card">
                       <img src={img2} alt="Headphones" className="card-img-top" />
                       <div className="card-body">
-                          <h5 className="card-title">Hogwarts Legacy</h5>
+                          <h5 className="card-titles">Grand Theft Auto V</h5>
                           <p className="card-text">Action, Adventure</p>
                           
                       </div>
@@ -73,7 +73,7 @@ function HomePage() {
                   <div className="card buy-now-card">
                       <img src={img3} alt="Headphones" className="card-img-top" />
                       <div className="card-body">
-                          <h5 className="card-title">Witcher 3</h5>
+                          <h5 className="card-titles">Witcher 3</h5>
                           <p className="card-text">Action, Adventure</p>
                           
                       </div>
@@ -90,15 +90,15 @@ function HomePage() {
 
     <section className="py-5 gaming-section">
         <div className="container">
-          <h2 className="text-center text-dark">Explore Our Gaming World &#128293;</h2>
+          <h2 className="text-center text-dark mb-5">Explore Our Gaming World &#128293;</h2>
           <div className="row">
             <div className="col-md-4">
               <div className="gaming-card">
                 <img src={img4} alt="Gaming 1" className="img-fluid mb-3" />
                 <div className="card-overlay">
                     <i className="fas fa-gamepad"></i> 
-                  <h5 className="card-title">Grand Theft Auto V</h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <h5 className="card-title">Tekken 7</h5>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>
@@ -106,8 +106,8 @@ function HomePage() {
               <div className="gaming-card">
                 <img src={img5} alt="Gaming 2" className="img-fluid mb-3" />
                 <div className="card-overlay">
-                  <h5 className="card-title">CyberPunk 2077</h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <h5 className="card-title">Valorant</h5>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ function HomePage() {
                 <img src={img6} alt="Gaming 3" className="img-fluid mb-3" />
                 <div className="card-overlay">
                   <h5 className="card-title">God of War: Ragnarok</h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ function HomePage() {
                 <img src={img7} alt="Gaming 4" className="img-fluid mb-3" />
                 <div className="card-overlay">
                   <h5 className="card-title">Fifa 23</h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ function HomePage() {
                 <img src={img8} alt="Gaming 7" className="img-fluid mb-3" />
                 <div className="card-overlay">
                   <h5 className="card-title">Forza Horizon 3 </h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ function HomePage() {
                 <img src={img9} alt="Gaming 8" className="img-fluid mb-3" />
                 <div className="card-overlay">
                   <h5 className="card-title">Call of Cuty: Warzone</h5>
-                  <Link to="/" className="btn btn-primary">Play Now</Link>
+                  <Link to="/Buying" className="btn btn-primary">Play Now</Link>
                 </div>
               </div>
             </div>

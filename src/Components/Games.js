@@ -218,7 +218,7 @@ export default function Games() {
     <>
        <section className="py-5 gaming-section">
         <div className="container">
-          <h2 className="text-center text-dark">
+          <h2 className="text-center text-dark mb-5">
             Explore Our Gaming World &#128293;
           </h2>
           <div className="row">
